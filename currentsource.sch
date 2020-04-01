@@ -779,10 +779,5 @@ Substrate of the THAT320 is connected to AC-ground\nusing capacitors between DC-
 Text Notes 9035 3535 0    79   ~ 16
 Power Supply
 Wire Wire Line
-	9515 2840 9515 2980
-Wire Wire Line
-	9965 2980 9515 2980
-Connection ~ 9515 2980
-Wire Wire Line
-	9515 2980 9515 3090
+	9515 2840 9515 3090
 $EndSCHEMATC
