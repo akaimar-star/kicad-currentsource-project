@@ -717,8 +717,6 @@ Wire Wire Line
 	5995 2625 6215 2625
 Text GLabel 7755 3895 3    50   Input ~ 0
 +15V_1
-Wire Wire Line
-	9515 1650 9515 1845
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DDEEDEE
@@ -730,11 +728,6 @@ F 3 "~" H 10005 1845 50  0001 C CNN
 	1    10005 1845
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10005 1845 9515 1845
-Connection ~ 9515 1845
-Wire Wire Line
-	9515 1845 9515 1940
 Wire Wire Line
 	4085 6070 4350 6070
 $Comp
@@ -780,4 +773,6 @@ Text Notes 9035 3535 0    79   ~ 16
 Power Supply
 Wire Wire Line
 	9515 2840 9515 3090
+Wire Wire Line
+	9515 1650 9515 1940
 $EndSCHEMATC
