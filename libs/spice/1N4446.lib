@@ -1,0 +1,4 @@
+*
+.MODEL 1N4446  D(Is=0.1p Rs=4 CJO=2p Tt=12n Bv=100 Ibv=0.1p)
+** National
+**

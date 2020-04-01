@@ -1,0 +1,30 @@
+* A quad pnp ngspice subcircuit model of the THAT320 transistor array.
+* It has a cross-reference with the MPQ2907 transistor array.
+* The MPQ2907 contains four 2N2907A PNP transistors  
+* file name: THAT320-quad.lib
+*
+*  
+* connections:   Collector Q1
+*                    | Base Q1   
+*                    |   |  Emitter Q1 
+*                    |   |   |  No con. 
+*                    |   |   |   |  Emitter Q2 
+*                    |   |   |   |   |  Base Q2
+*                    |   |   |   |   |   | Collector Q2
+*                    |   |   |   |   |   |   | Collector Q3 
+*                    |   |   |   |   |   |   |   | Base Q3                             
+*                    |   |   |   |   |   |   |   |   |  Emitter Q3           
+*                    |   |   |   |   |   |   |   |   |   |   No con.        
+*                    |   |   |   |   |   |   |   |   |   |    | Emitter Q4 
+*                    |   |   |   |   |   |   |   |   |   |    |   | Base Q4  
+*                    |   |   |   |   |   |   |   |   |   |    |   |   |  Collector Q4        
+*                    |   |   |   |   |   |   |   |   |   |    |   |   |    |   
+*
+.subckt THAT320      1   2   3   4   5   6   7   8   9   10   11  12  13   14 
+.include 2N2907A.lib 
+Q1  1    2   3   2N2907A
+Q2  14   13  12  2N2907A
+Q3  7    6   5   2N2907A
+Q4  8    9   10  2N2907A
+.ends 
+

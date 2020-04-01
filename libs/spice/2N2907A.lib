@@ -1,0 +1,50 @@
+******
+* Spice Model
+* Item: 2N2907A
+* Date: 8/19/10
+* Revision History: A
+* ==========================================================
+* This model was developed by: 
+* Central Semiconductor Corp.
+* 145 Adams Avenue
+* Hauppauge, NY 11788
+*
+* These models are subject to change without notice.
+* Users may not directly or indirectly re-sell or 
+* re-distribute this model. This model may not 
+* be modified, or altered without the consent of Central Semiconductor Corp. 
+*
+* For more information on this model contact
+* Central Semiconductor Corp. at:
+* (631) 435-1110 or Engineering@centralsemi.com
+* http://www.centralsemi.com
+* ==========================================================
+******
+*SRC=2N2907A;2N2907A;BJTs PNP; Si;  60.0V  0.60A  200MHz   Central Semi Central Semi
+.MODEL 2N2907A  PNP (
++ IS=15.294E-15
++ BF=297.85
++ VAF=100
++ IKF=1.6607
++ ISE=29.577E-15
++ NE=1.5507
++ BR=476
++ VAR=100
++ IKR=2.2270
++ ISC=7.6418E-9
++ NC=2.1591
++ NK=.97918
++ RB=2.4875
++ RC=.69253
++ CJE=33.186E-12
++ VJE=.8716
++ MJE=.40799
++ CJC=15.649E-12
++ VJC=.56868
++ MJC=.3619
++ TF=456.18E-12
++ XTF=22.393
++ VTF=28.493
++ ITF=.62109
++ TR=10.000E-9 )
+******

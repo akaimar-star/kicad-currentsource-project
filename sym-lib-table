@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name THAT_Corporation)(type Legacy)(uri "${KIPRJMOD}/libs/symbols/THAT Corporation.lib")(options "")(descr ""))
+  (lib (name LM358N)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/LM358N.lib)(options "")(descr ""))
+  (lib (name FQD17P06TM)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/FQD17P06TM.lib)(options "")(descr ""))
+  (lib (name 2N7000)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/2N7000.lib)(options "")(descr ""))
+  (lib (name 1N4446)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/1N4446.lib)(options "")(descr ""))
+)
